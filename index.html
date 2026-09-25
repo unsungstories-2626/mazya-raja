@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="mr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>गायकाच्या आवाजातून Piano / Flute Instrumental — संपूर्ण मराठी मार्गदर्शक</title>
+<style>
+:root{--ink:#182a35;--muted:#526773;--accent:#086d72;--line:#dce5e6;--paper:#fff;--bg:#f2f5f5}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--bg);font-family:'Nirmala UI','Mangal',system-ui,sans-serif;font-size:17px;line-height:1.9}main{max-width:1050px;margin:32px auto;background:var(--paper);padding:58px 68px;box-shadow:0 5px 30px #182a3510;border-radius:14px}h1,h2,h3{line-height:1.5;color:#123d46}h1{font-size:36px;margin:14px 0 18px}h2{font-size:27px;margin:50px 0 18px;border-top:2px solid var(--line);padding-top:25px;scroll-margin-top:22px}h3{font-size:21px;margin-top:28px}p{margin:12px 0}a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}li{margin:9px 0}ol,ul{padding-left:30px}.eyebrow{font-size:14px;font-weight:700;color:var(--accent);letter-spacing:.08em}.lead{font-size:20px;color:#3e5660}.meta{color:var(--muted);font-size:14px}.note,.tip{border-left:4px solid var(--accent);padding:17px 21px;background:#edf8f5;margin:24px 0;border-radius:0 8px 8px 0}.note{background:#fff6e6;border-color:#bc801d}.flow{padding:23px;border:1px solid var(--line);border-radius:10px;background:#f5fafa;font-size:18px;font-weight:600;line-height:2}.toc{columns:2;column-gap:35px;background:#f6f8f9;padding:20px 28px;border-radius:10px}.toc a{display:block;margin:7px 0;break-inside:avoid}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;line-height:1.8}th,td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#edf4f5;color:#123d46}tr:nth-child(even){background:#fafcfc}code,kbd,pre{font-family:Consolas,'Nirmala UI',monospace;font-size:.9em}code{background:#f0f4f5;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}kbd{border:1px solid #c6d1d5;border-bottom-width:2px;border-radius:4px;padding:2px 6px;background:#fff;white-space:nowrap}pre{padding:20px;background:#142b35;color:#e7f4f4;border-radius:8px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7}.small{font-size:14px;color:var(--muted)}.pill{display:inline-block;border:1px solid #b4d7cf;background:#f0faf6;color:#215f51;padding:3px 12px;border-radius:30px;font-size:13px;margin-right:7px}.checklist{list-style:'☐  '}.button{display:inline-block;background:var(--accent);color:#fff;border:0;border-radius:6px;padding:10px 18px;cursor:pointer;font:inherit}.footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+@media(max-width:750px){main{margin:0;padding:25px 20px;border-radius:0}h1{font-size:28px}h2{font-size:23px}.toc{columns:1}table{font-size:13px}th,td{padding:8px}body{font-size:16px}}
+@media print{@page{size:A4;margin:17mm}body{background:#fff;font-size:11pt;line-height:1.65}main{margin:0;padding:0;max-width:none;box-shadow:none}h1{font-size:25pt}h2{font-size:18pt;margin-top:25px;break-after:avoid}h3{font-size:14pt;break-after:avoid}table{font-size:10pt}tr,.note,.tip,.flow,pre{break-inside:avoid}thead{display:table-header-group}.no-print{display:none}.toc{columns:2}a{color:#14525a}p,li{orphans:3;widows:3}}
+</style></head>
+<body><main>
+<div class="eyebrow">FL STUDIO 20 · प्रत्यक्ष केलेल्या कामाची नोंद · २५ सप्टेंबर २०२६</div>
+<h1>गायकाच्या आवाजातून<br>Piano / Flute Instrumental</h1>
+<p class="lead">“माझ्या राजा” गाण्यासाठी आपण काय केले, कोणत्या फाइल्स वापरल्या आणि दुसऱ्या गाण्यासाठी हे काम कसे करायचे — सुरुवातीपासून शेवटपर्यंत.</p>
+<p><span class="pill">मराठीत स्पष्टीकरण</span><span class="pill">नेमके FL Studio menus</span><span class="pill">पुन्हा वापरण्यासाठी checklist</span></p>
+<p class="no-print"><button class="button" onclick="window.print()">Print / Save as PDF</button></p>
+<div class="tip"><strong>वाचण्याची पद्धत:</strong> प्रथम भाग १–५ वाचा. नवीन गाण्यासाठी भाग ६ पासून पायऱ्या करा. शेवटी छोटा checklist आहे. फाइल browser मध्ये double-click करून उघडता येते. PDF हवी असल्यास वरील बटण → Destination: Save as PDF → Save.</div>
+
+<nav class="toc" aria-label="अनुक्रमणिका">
+<a href="#goal">१. तुम्हाला नेमके काय हवे होते?</a><a href="#terms">२. Audio, MIDI, Pattern यांतील फरक</a><a href="#inputs">३. काय लागले आणि काय लागले नाही?</a><a href="#actual">४. आपण प्रत्यक्ष केलेला क्रम</a><a href="#conversion">५. Vocal चे MIDI notes कसे झाले?</a><a href="#new-song">६. नवीन गाण्याची तयारी</a><a href="#separate">७. Vocal आणि Music वेगळे करणे</a><a href="#midi">८. Coding शिवाय Audio → MIDI पर्याय</a><a href="#fl-import">९. FL Studio मध्ये Piano Roll import</a><a href="#edit">१०. Notes पाहणे, दुरुस्त करणे</a><a href="#flute">११. तीच melody Flute वर वाजवणे</a><a href="#arrange">१२. Melody + मूळ वाद्यांची arrangement</a><a href="#save">१३. Project save व backup</a><a href="#export">१४. एकत्र WAV / MP3 export</a><a href="#files">१५. तयार झालेल्या तुमच्या फाइल्स</a><a href="#problems">१६. सामान्य अडचणी आणि उपाय</a><a href="#checklist">१७. प्रत्येक गाण्याचा checklist</a><a href="#technical">१८. मूळ scripts व तांत्रिक तपशील</a><a href="#prompt">१९. पुढच्या वेळी मला देण्याचा नमुना</a><a href="#sources">२०. अधिकृत संदर्भ</a>
+</nav>
+
+<h2 id="goal">१. तुम्हाला नेमके काय हवे होते?</h2>
+<p>तुम्ही सुरुवातीला <code>C:\Users\Rushikesh Khode\Downloads\mazya raja.flp</code> हा project दिला आणि सांगितले: गायक ज्या चालीत आणि तालात गातो, त्याच जागी पियानो किंवा हार्मोनियम वाजले पाहिजे; शब्द ऐकू येऊ नयेत. नंतर तुम्हाला त्या धुनेचे Piano Roll notes पाहायचे होते. शेवटी ही धून मूळ तबला, ड्रम व इतर वाद्यांसोबत एकत्र करायची होती.</p>
+<p>या कामाला <strong>vocal melody transcription</strong> आणि <strong>instrumental arrangement</strong> म्हणता येईल. गायकाच्या सुरांची मालिका वाद्यावर वाजवली जाते. <strong>Chords</strong> म्हणजे एकाच वेळी वाजणाऱ्या अनेक सुरांचा समूह; आपल्या मुख्य कामात गायकाची <strong>melody / चाल</strong> काढली होती.</p>
+<div class="flow">मूळ गाणे → Vocal + Music वेगळे → Vocal चे MIDI notes → Piano किंवा Flute instrument → त्याच वेळेला मूळ Music → एकत्र WAV / MP3</div>
+
+<h2 id="terms">२. Audio, MIDI, Pattern यांतील फरक</h2>
+<table><thead><tr><th>प्रकार</th><th>काय असते?</th><th>आपल्या कामात उपयोग</th></tr></thead><tbody>
+<tr><td>Audio: WAV / MP3</td><td>रेकॉर्ड झालेला प्रत्यक्ष आवाज. Playlist मध्ये waveform दिसतो.</td><td>मूळ गाणे, vocal, backing music आणि अंतिम instrumental.</td></tr>
+<tr><td>MIDI: .mid</td><td>कोणता स्वर, कधी, किती वेळ आणि किती जोरात वाजवायचा याची माहिती. स्वतःचा piano/flute आवाज त्यात नसतो.</td><td>तीच melody वेगवेगळ्या वाद्यांवर वाजवण्यासाठी.</td></tr>
+<tr><td>Piano Roll</td><td>FL Studio मध्ये MIDI notes दिसणारी आणि बदलता येणारी जागा.</td><td>प्रत्येक note ची उंची, वेळ, लांबी व velocity बदलणे.</td></tr>
+<tr><td>Pattern</td><td>एक किंवा अधिक instrument channels साठी notes ठेवणारा भाग.</td><td><code>Piano Melody</code> किंवा <code>Flute</code>.</td></tr>
+<tr><td>Playlist</td><td>गाण्याच्या timeline वर patterns आणि audio clips एकत्र ठेवण्याची जागा.</td><td>Melody आणि मूळ वाद्ये एकाच वेळी वाजवणे.</td></tr>
+<tr><td>Project: .flp</td><td>Arrangement, notes, plugins, settings आणि audio files चे संदर्भ.</td><td>पुढे काम edit करता येते. FLP save करणे म्हणजे ऐकण्याची MP3 तयार करणे नाही.</td></tr>
+</tbody></table>
+<div class="note"><strong>सुरुवातीला Piano Roll का दिसत नव्हता?</strong> पहिल्या आवृत्तीत मी तयार झालेला piano WAV project मध्ये ठेवला होता; MIDI स्वतंत्र फाइलमध्ये होता. तुमच्या पुढील विनंतीनंतर MIDI हा FL Keys च्या Piano Roll मध्ये import केला आणि <strong>Piano Melody</strong> pattern म्हणून save केला.</div>
+
+<h2 id="inputs">३. काय लागले आणि काय लागले नाही?</h2>
+<h3>आपल्याकडे सुरुवातीपासून असलेल्या गोष्टी</h3>
+<ul><li>Windows संगणक आणि आधीपासून उघडे असलेले <strong>FL Studio 20</strong>.</li><li><code>mazya raja.flp</code> हा FL Studio project.</li><li><code>mazya_raja.mp3</code> — पूर्ण मूळ गाणे.</li><li><code>audio_vocals.mp3</code> — गायकाचा वेगळा vocal track.</li><li><code>audio_music.mp3</code> — तबला, ड्रम व इतर वाद्यांचा एकत्र backing track.</li></ul>
+<p>या तिन्ही MP3 फाइल्स तुमच्या Downloads मध्ये सापडल्या. Project मध्ये त्यांचे references आधीच होते. <strong>मी या कामात मूळ गाण्यातून vocal separation नव्याने केले नव्हते.</strong> त्यासाठी तयार फाइल्स वापरल्या.</p>
+<h3>मी वापरलेली अतिरिक्त साधने</h3>
+<table><thead><tr><th>साधन</th><th>कशासाठी वापरले?</th></tr></thead><tbody><tr><td>Python + librosa pYIN</td><td>Vocal मधील सुरांची frequency आणि वेळ ओळखण्यासाठी.</td></tr><tr><td>NumPy / SciPy</td><td>Audio processing, smoothing आणि छोटे pitch errors हाताळण्यासाठी.</td></tr><tr><td>SoundFile</td><td>Audio वाचण्यासाठी, WAV लिहिण्यासाठी आणि export तपासण्यासाठी.</td></tr><tr><td>Mido</td><td>ओळखलेल्या notes ची MIDI फाइल तयार करण्यासाठी.</td></tr><tr><td>PyFLP</td><td>मूळ project ची माहिती वाचून वेगळा piano project तयार करण्यासाठी.</td></tr><tr><td>FL Studio मधील आधीपासूनचे piano samples / FL Keys</td><td>सुरुवातीचा piano WAV आणि नंतर editable Piano Roll playback.</td></tr><tr><td>तुमच्या project मधील Flute instrument</td><td>शेवटची flute instrumental आवृत्ती render करण्यासाठी.</td></tr></tbody></table>
+<p>या कामासाठी नवे paid plugin, paid conversion website, subscription, microphone, MIDI keyboard किंवा पुन्हा गाणे रेकॉर्ड करणे लागले नाही. नवीन वापरलेल्या Python libraries मोफत आहेत. तुमच्याकडे आधीपासून असलेले FL Studio वापरले; <strong>FL Studio स्वतः सर्वांसाठी मोफत आहे असा अर्थ नाही.</strong></p>
+
+<h2 id="actual">४. आपण प्रत्यक्ष केलेला क्रम</h2>
+<ol>
+<li><strong>Project व फाइल्स तपासल्या.</strong> FL Studio मध्ये <code>mazya raja.flp</code> आधीच उघडा होता. Playlist मध्ये मूळ गाणे, music आणि vocal tracks होते.</li>
+<li><strong>Timing तपासले.</strong> Project tempo <strong>130 BPM</strong> होता. Vocal व music stem प्रत्येकी सुमारे <strong>218.12 सेकंद</strong> होते आणि सुरुवात जुळलेली होती. हा project चा tempo आहे; स्वतंत्र beat-detection करून गाण्याचा अचूक नैसर्गिक tempo सिद्ध केलेला नाही.</li>
+<li><strong>Vocal चे pitch analysis केले.</strong> Python मधील pYIN वापरून प्रत्येक भागातील मुख्य सुरांचा मागोवा घेतला.</li>
+<li><strong>Notes स्वच्छ केले.</strong> किरकोळ pitch fluctuations, खूप छोटे fragments आणि काही चुकीचे खालच्या सप्तकातील detections दुरुस्त केले.</li>
+<li><strong>MIDI तयार केली.</strong> अंतिम मूळ transcription मध्ये <strong>625 notes</strong> होते. गायकाचे timing ठेवले; सर्व notes जाड beat-grid वर ढकलले नाहीत.</li>
+<li><strong>Piano audio तयार केला.</strong> संगणकावर आधीपासून असलेल्या FL piano samples ने notes वाजवून स्वतंत्र piano WAV लिहिला.</li>
+<li><strong>पहिली एकत्र piano आवृत्ती तयार केली.</strong> Piano WAV आणि music stem यांची पातळी संतुलित करून <code>Mazya_Raja_Piano_With_Music.wav</code> बनवला.</li>
+<li><strong>नवा project तयार केला.</strong> मूळ FLP बदलण्याऐवजी <code>Downloads\Mazya_Raja_Piano\Mazya_Raja_Piano.flp</code> तयार केला. पूर्ण original गाण्याचा track mute केला; vocal च्या जागी piano audio ठेवला.</li>
+<li><strong>तुमच्या Piano Roll विनंतीनंतर FL Keys जोडला.</strong> <code>Add → ROMpler → FL Keys</code> वापरले.</li>
+<li><strong>MIDI notes import केले.</strong> FL Keys साठी <kbd>F7</kbd> → Piano Roll च्या menu मधून <code>File → Import MIDI file…</code> → आपली MIDI निवडली.</li>
+<li><strong>Pattern ला नाव दिले.</strong> वरच्या pattern selector वर right-click → <code>Rename and color…</code> → <code>Piano Melody</code> → Enter. <kbd>Ctrl+S</kbd> ने save केले. Saved project मध्ये 625 notes FL Keys channel शी जोडलेले आहेत हे तपासले.</li>
+<li><strong>पुढील टप्प्यात तुमच्या project मध्ये Flute व audio_music #2 दिसले.</strong> त्या वेळी flute pattern आणि backing track सुरुवातीपासून जुळलेले होते. Flute preset निवडण्याचा आणि मधल्या note edits चा प्रत्येक click मी केलेला किंवा पाहिलेला नाही; म्हणून तो माझ्या प्रत्यक्ष कृतीचा भाग म्हणून दाखवत नाही.</li>
+<li><strong>शेवटची merged आवृत्ती export केली.</strong> Active Flute pattern + active <code>audio_music #2</code> यांच्या पूर्ण arrangement मधून WAV आणि MP3 बनवले. Vocal व मूळ पूर्ण गाण्याचे tracks बंद होते.</li>
+<li><strong>फाइल्स तपासल्या.</strong> Export stereo होता, सुमारे 3:39 मिनिटांचा होता आणि तपासणीत full-scale clipping samples आढळले नाहीत. प्रत्येक स्वर कानाने पडताळल्याचा दावा नाही.</li>
+</ol>
+
+<h2 id="conversion">५. Vocal चे MIDI notes कसे झाले?</h2>
+<p>हा सर्वात महत्त्वाचा मधला टप्पा आहे. <strong>MP3 थेट Piano Roll मध्ये टाकून त्याचे notes आपोआप झाले नव्हते.</strong> आधी audio-to-MIDI transcription केले, मग ती MIDI FL Studio मध्ये import केली.</p>
+<ol><li>वेगळा vocal audio वाचला.</li><li>Pitch analysis साठी stereo ची mono प्रत वापरली. अंतिम music track mono केला नाही.</li><li>pYIN ने “या क्षणी कोणता मुख्य स्वर आहे?” याचा अंदाज घेतला.</li><li>समान स्वर सलग असलेले भाग एका note मध्ये एकत्र केले. सुरुवात, शेवट आणि आवाजाची ताकद नोंदवली.</li><li>श्वास, शांतता आणि काही अनिश्चित detections वगळले. लहान अडथळे सांभाळले.</li><li>Frequency चे MIDI note number मध्ये रूपांतर केले.</li><li>सगळे notes <code>Mazya_Raja_Piano_Melody.mid</code> मध्ये लिहिले.</li></ol>
+<p>pYIN ही fundamental frequency शोधणारी पद्धत आहे. त्यानंतरची note grouping व cleanup आपल्यासाठी लिहिलेल्या script ने केली. <a href="https://librosa.org/doc/0.11.0/generated/librosa.pyin.html">अधिकृत pYIN माहिती</a>.</p>
+<div class="note"><strong>मूळ timing जपणे:</strong> Vocal मध्ये सुरुवातीला 2 सेकंद शांतता असेल तर ती MIDI मध्येही राहिली पाहिजे. “पहिला note पहिल्या beat वर आणू” म्हणून MIDI डावीकडे सरकवला तर backing सोबत जुळणं बिघडते. वेगळ्या सप्तकातील एखादा note चूक वाटल्यास ऐकून तपासा; सर्व गाण्यांना एकच octave-correction नियम लागू होत नाही.</div>
+
+<h2 id="new-song">६. नवीन गाण्याची तयारी</h2>
+<ol><li>प्रत्येक गाण्यासाठी वेगळा folder करा, उदा. <code>Downloads\Instrumental_Projects\Song_02</code>.</li><li>मूळ गाणे त्या folder मध्ये ठेवा: <code>Original.wav</code> किंवा <code>Original.mp3</code>.</li><li>उपलब्ध असलेले सर्वोत्तम audio वापरा. वारंवार MP3 मध्ये convert केल्याने गमावलेली गुणवत्ता परत येत नाही.</li><li>त्याच folder मध्ये <code>Vocals.wav</code>, <code>Music.wav</code>, <code>Melody.mid</code>, <code>Song_02.flp</code> व final export ठेवा.</li><li>फक्त कडवे करायचे असेल तर मूळ audio, vocal आणि music तिन्हींसाठी <strong>तोच start आणि end</strong> ठेवा. एका track चाच सुरुवातीचा भाग कापू नका.</li></ol>
+<pre>Song_02/
+  Original.wav
+  Vocals.wav
+  Music.wav
+  Melody.mid
+  Song_02.flp
+  Song_02_Piano_Instrumental.wav
+  Song_02_Flute_Instrumental.mp3</pre>
+
+<h2 id="separate">७. Vocal आणि Music वेगळे करणे — फक्त गरज असल्यास</h2>
+<p>तुमच्याकडे vocal व instrumental stem आधीच असतील तर हा टप्पा वगळा. आपल्या “माझ्या राजा” कामात हा टप्पा वगळला होता.</p>
+<p>नव्या गाण्यासाठी मोफत पर्याय म्हणून <a href="https://github.com/Anjok07/ultimatevocalremovergui">Ultimate Vocal Remover — अधिकृत project</a> वापरता येतो. हा पर्यायी workflow आहे; आपल्या गाण्याची separation मी UVR मध्ये केली असा दावा नाही.</p>
+<ol><li>अधिकृत project मधून Windows आवृत्ती घ्या व स्थापित करा.</li><li>Input म्हणून पूर्ण मूळ गाणे निवडा.</li><li>Output folder म्हणून त्या गाण्याचा folder निवडा.</li><li>Vocal / Instrumental separation देणारे model निवडा. Model names व download पर्याय आवृत्तीनुसार बदलतात; उपलब्ध vocal-separation model वापरा.</li><li>दोन्ही outputs जतन होतील अशी निवड करा. फक्त vocals किंवा फक्त instrumental देणारा पर्याय निवडल्यास दुसरा stem वेगळा तयार करावा लागू शकतो.</li><li>Process सुरू करा. Model आधीपासून नसल्यास पहिल्यांदा download लागतो.</li><li>दोन्ही फाइल्स ऐका: vocal मध्ये गायक स्पष्ट आहे का, instrumental मध्ये lead vocal शक्य तितका कमी आहे का?</li><li>त्या दोन्ही फाइल्सची सुरुवात व duration जपून ठेवा.</li></ol>
+<div class="tip">खूप संगीत उरलेल्या vocal stem मधून piano notes काढल्यास तबल्याचे, bass चे किंवा इतर वाद्यांचे चुकीचे notes सुद्धा येऊ शकतात. चांगला vocal stem हा पुढील कामाचा पाया आहे. Separation मुळे हलका vocal bleed किंवा artifacts उरू शकतात.</div>
+
+<h2 id="midi">८. Coding शिवाय Audio → MIDI — पर्यायी सोपा मार्ग</h2>
+<p>आपल्या गाण्यासाठी मी Python/pYIN वापरले. तुम्हाला स्वतः menus वापरून काम करायचे असल्यास <a href="https://basicpitch.spotify.com/">Spotify Basic Pitch</a> हा मोफत audio-to-MIDI पर्याय वापरून पाहू शकता. त्याचा परिणाम pYIN सारखाच असेलच असे नाही; notes तपासावे लागतात.</p>
+<ol><li>Browser मध्ये अधिकृत Basic Pitch पान उघडा.</li><li>Audio निवडण्याच्या जागी <strong>फक्त vocal stem</strong> द्या. पूर्ण music mix देऊ नका.</li><li>Model तयार होण्यासाठी व audio process होण्यासाठी वेळ द्या.</li><li>तयार झालेली MIDI download करा.</li><li>ती <code>Melody.mid</code> म्हणून गाण्याच्या folder मध्ये ठेवा.</li><li>पुढील भागाप्रमाणे FL Studio मध्ये import करा आणि मूळ vocal शी तुलना करा.</li></ol>
+<p>Basic Pitch च्या अधिकृत project नुसार एका वेळी एक instrument/source असल्यास परिणाम चांगले मिळतात. त्याचे Python साधन स्थानिक processing साठीही उपलब्ध आहे. <a href="https://github.com/spotify/basic-pitch">अधिकृत माहिती</a>.</p>
+<div class="note"><strong>Tempo बाबत विशेष लक्ष:</strong> आपली मूळ MIDI मी 130 BPM संदर्भात लिहिली, म्हणून FL project सुद्धा 130 BPM ठेवला. दुसऱ्या converter ची MIDI वेगळ्या tempo संदर्भात तयार झालेली असू शकते. फक्त project 130 वर ठेवला म्हणून ती योग्य वेळेत वाजेलच असे नाही. MIDI मधील tempo / import settings तपासा आणि सुरुवातीला, मध्ये व शेवटी vocal सोबत जुळते का ते पाहा. सर्व नवीन गाण्यांना 130 BPM वापरण्याचा नियम नाही.</div>
+
+<h2 id="fl-import">९. FL Studio मध्ये Piano Roll import — नेमक्या पायऱ्या</h2>
+<h3>९.१ Project उघडणे व Piano instrument जोडणे</h3>
+<ol><li>FL Studio उघडा. नवीन कामासाठी नवीन project घ्या किंवा आधीच्या project ची <code>File → Save as…</code> वापरून वेगळ्या नावाची प्रत करा.</li><li>योग्य project tempo ठेवा. आपल्या MIDI साठी <strong>130 BPM</strong>.</li><li>वरच्या menu मधून <strong>Add → ROMpler → FL Keys</strong> निवडा. हाच मार्ग तुमच्या FL Studio 20 मध्ये दिसला होता.</li><li>FL Keys उघडल्यावर <strong>Grand Piano</strong> आवाज निवडलेला असल्याचे पाहा. तुमच्या plugin menu ची मांडणी वेगळी असेल तर FL Keys शोधा.</li><li>वरच्या pattern selector मध्ये रिकामा pattern निवडा.</li><li>FL Keys channel निवडून <kbd>F7</kbd> दाबा. किंवा Channel Rack मध्ये FL Keys वर right-click → Piano roll.</li></ol>
+<h3>९.२ MIDI notes आत आणणे</h3>
+<ol><li><strong>Piano Roll च्या वरच्या डाव्या कोपऱ्यातील menu arrow</strong> क्लिक करा.</li><li><strong>File → Import MIDI file…</strong> निवडा. Piano Roll ला focus असताना shortcut <kbd>Ctrl+M</kbd> आहे.</li><li>आपल्या गाण्यासाठी ही फाइल निवडली होती:<br><code>C:\Users\Rushikesh Khode\Downloads\Mazya_Raja_Piano\Mazya_Raja_Piano_Melody.mid</code></li><li><strong>Open</strong> करा. MIDI import options दिसल्यास lead melody असलेला track/channel निवडा.</li><li>Notes आता Piano Roll मध्ये आले पाहिजेत. आपल्या import मध्ये <strong>625 notes</strong> आले.</li></ol>
+<p class="small">ही Piano Roll मधील import आहे. संपूर्ण नवीन MIDI project उघडण्याचा मुख्य File → Open मार्ग यासाठी वापरण्याची गरज नाही. संदर्भ: <a href="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_midi.htm">Image-Line MIDI import</a>.</p>
+<h3>९.३ Pattern ला नाव देणे व Save</h3>
+<ol><li>वर <code>Pattern 1</code> दिसणाऱ्या pattern selector वर right-click करा.</li><li><strong>Rename and color…</strong> निवडा.</li><li><code>Piano Melody</code> नाव लिहा आणि <kbd>Enter</kbd> दाबा.</li><li><kbd>Ctrl+S</kbd> दाबून FLP save करा. प्रथमच save करत असाल तर योग्य folder आणि नाव निवडा.</li></ol>
+<div class="tip"><strong>एक चूक टाळा:</strong> एकाच Piano Roll मध्ये तीच MIDI पुन्हा-पुन्हा import करू नका. Notes एकावर एक बसले तर आवाज अनावश्यक जोरात येऊ शकतो. आधीच notes असतील तर नवीन रिकामा pattern/channel घ्या.</div>
+
+<h2 id="edit">१०. Notes पाहणे, ऐकणे आणि दुरुस्त करणे</h2>
+<ol><li>Piano Roll च्या वरच्या उजव्या बाजूच्या चौकोनी maximize बटणाने editor मोठा करा.</li><li>सगळे notes निवडण्यासाठी <kbd>Ctrl+A</kbd>.</li><li>Piano Roll menu → <strong>Zoom → Zoom on selection</strong>. आपल्या FL 20 मध्ये <kbd>Shift+5</kbd> होता. त्यामुळे सर्व निवडलेले notes एका दृश्यात येतात.</li><li>Individual notes मोठे पाहण्यासाठी <strong>Zoom → Quick zoom 2</strong> किंवा <kbd>Shift+2</kbd> वापरला.</li><li>फक्त या pattern चे वादन ऐकण्यासाठी वरचा <strong>PAT</strong> mode निवडा. <kbd>Space</kbd> ने play/stop करा.</li><li>स्वर चुकला असेल तर तो note वर/खाली हलवा. वेळ चुकली असेल तर डावे/उजवे हलवा. लांबी चुकीची असेल तर note चा उजवा टोक बदलवा.</li><li>खालील <strong>Velocity</strong> भागात note ची ताकद कमी-जास्त करा.</li><li>छोटा भाग दुरुस्त केल्यानंतर reference vocal बरोबर ऐका. नंतर reference पुन्हा mute करा.</li></ol>
+<p><strong>Timing सुधारताना:</strong> प्रथम Snap menu मध्ये लहान grid निवडा किंवा गरजेनुसार snap बंद करा. मोठ्या grid वर पूर्ण melody quantize केल्यास गायकाच्या नैसर्गिक phrasing मध्ये बदल होतो. आपल्या पहिल्या conversion मध्ये कठोर beat quantization केले नव्हते.</p>
+<p><strong>FL Studio मध्ये octave label वेगळे दिसू शकते:</strong> आपल्या CSV मधील A4 हे FL Studio मध्ये A5 म्हणून दिसले. वेगवेगळ्या software ची octave नावांची convention वेगळी असू शकते. फक्त नाव पाहून संपूर्ण melody एक octave हलवू नका; आवाज आणि MIDI note number तपासा.</p>
+
+<h2 id="flute">११. तीच melody Flute वर वाजवणे</h2>
+<p>ही पुनरावृत्तीसाठी सुचवलेली पद्धत आहे. आपल्या शेवटच्या export वेळी तुमच्या project मध्ये Flute आधीच तयार होता; त्याचा preset तुम्ही कसा निवडला याची संपूर्ण UI नोंद माझ्याकडे नाही.</p>
+<ol><li>Piano pattern ठेवून नवीन रिकामा pattern तयार करा; नाव <code>Flute Melody</code> द्या.</li><li>तुमच्या संगणकावर उपलब्ध flute instrument/preset उघडा. सध्याच्या project मध्ये आधीपासून चालणारा <code>Flute</code> channel असल्यास तो वापरता येतो.</li><li>त्याच channel चा Piano Roll उघडा.</li><li><strong>त्याच Melody.mid फाइलची एकदाच import</strong> करा. यामुळे सुरांची वेळ पुन्हा हाताने बसवावी लागत नाही.</li><li>PAT mode मध्ये ऐका. Notes खूप तुटक वाटल्यास निवडक notes ची लांबी व instrument release काळजीपूर्वक बदला.</li><li>पियानो व flute ची स्वतंत्र आवृत्ती हवी असल्यास एकावेळी एक lead instrument सक्रिय ठेवा.</li></ol>
+<div class="note">गायकाची मींड, स्वरांमधील घसरण आणि श्वास हे साध्या स्थिर piano notes मध्ये तंतोतंत येत नाहीत. Flute वरही सुंदर phrasing साठी काही note lengths, velocity किंवा pitch expression हाताने सुधारावी लागू शकते.</div>
+
+<h2 id="arrange">१२. Melody आणि मूळ वाद्ये एकत्र लावणे</h2>
+<h3>१२.१ Playlist मध्ये ठेवणे</h3>
+<ol><li><kbd>F5</kbd> ने Playlist उघडा.</li><li>File Explorer मधून <code>Music.wav</code> / instrumental stem drag करून मोकळ्या audio track वर ठेवा.</li><li>पूर्ण गाण्याचे मूळ timing ठेवले असल्यास backing clip चे डावे टोक <strong>bar 1 / time 0</strong> वर ठेवा.</li><li>वर pattern selector मध्ये <code>Piano Melody</code> किंवा <code>Flute Melody</code> निवडा.</li><li>Playlist मध्ये दुसऱ्या मोकळ्या track वर <strong>bar 1</strong> येथे pattern ठेवा. मूळ transcription मध्ये leading silence असेल तर pattern च्या आत पहिल्या note आधी रिकामी जागा दिसणे योग्य आहे.</li><li>एकच पूर्ण melody pattern हवा असल्यास एकदाच ठेवा; नकळत शेजारी duplicate pattern तयार होऊ देऊ नका.</li><li><strong>SONG</strong> mode निवडा. PAT mode मध्ये पूर्ण Playlist ऐकू येत नाही.</li><li>सुरुवात, मधले कडवे आणि शेवट अशा किमान तीन ठिकाणी timing जुळते का ते ऐका.</li></ol>
+<h3>१२.२ कोणते tracks चालू ठेवायचे?</h3>
+<table><thead><tr><th>Track</th><th>अंतिम instrumental साठी</th></tr></thead><tbody>
+<tr><td>एक Piano किंवा Flute melody</td><td><strong>ON</strong></td></tr><tr><td>एक मूळ instrumental / music backing</td><td><strong>ON</strong></td></tr><tr><td>गायकाचा वेगळा vocal stem</td><td><strong>OFF / Mute</strong></td></tr><tr><td>पूर्ण मूळ गाणे, vocals सहित</td><td><strong>OFF / Mute</strong></td></tr><tr><td>त्याच backing ची दुसरी duplicate copy</td><td><strong>OFF</strong>, नाहीतर तोच आवाज दुप्पट होईल.</td></tr><tr><td>Melody pattern सोबत आधीचा rendered piano WAV</td><td>त्याच lead चे दोन्ही एकत्र नको असल्यास WAV <strong>OFF</strong>.</td></tr></tbody></table>
+<p>Playlist track header जवळचा छोटा activation दिवा वापरून mute/unmute करा. Channel Rack आणि Mixer मध्येही mute असू शकते; Playlist ON असून आवाज नसल्यास तेही तपासा.</p>
+<p><strong>आपल्या शेवटच्या arrangement मध्ये:</strong> Track 7 वरील <code>Flute</code> आणि Track 9 वरील <code>audio_music #2</code> सक्रिय होते. वरचे <code>audio_music</code>, rendered <code>Vocal melody - Piano</code> आणि पूर्ण <code>mazya_raja</code> tracks mute होते. <strong>#2 हे FL ने दिलेल्या दुसऱ्या channel/copy च्या नावातील चिन्ह आहे; स्वतंत्र “दुसरा drum stem” असल्याचा अर्थ नाही.</strong></p>
+<h3>१२.३ Volume संतुलित करणे</h3>
+<ol><li>प्रथम melody स्पष्ट ऐकू येईल अशी पातळी ठेवा.</li><li>Backing वाढवत न्या; तबला/ड्रम melody झाकू लागले तर backing कमी करा.</li><li>मोठ्या chorus किंवा शेवटच्या भागात Master meter लाल/clipping मध्ये जात नाही ना ते पाहा.</li><li>कानाने balance करा. सर्व गाण्यांसाठी एकच volume percentage योग्य नसते.</li></ol>
+<p>पहिल्या Python piano mix मध्ये backing ला 0.68 आणि piano ला 0.72 इतके digital gain लावले होते. हे script मधील sample multipliers आहेत; FL च्या knob वर तेच टक्के लावणे तंतोतंत समान प्रक्रिया नाही. शेवटची flute आवृत्ती मात्र तुमच्या सध्याच्या FL arrangement मधून export केली.</p>
+
+<h2 id="save">१३. Project save, version आणि backup</h2>
+<ol><li><kbd>Ctrl+S</kbd> = सध्याचा FLP project save.</li><li>मोठ्या बदलापूर्वी <strong>File → Save as…</strong> वापरून वेगळे नाव द्या, उदा. <code>Song_02_Piano_v1.flp</code>, <code>Song_02_Flute_v1.flp</code>.</li><li>Vocal, backing आणि rendered audio फाइल्स त्याच project folder मध्ये ठेवा.</li><li>Project save झाल्यानंतर संबंधित audio फाइल्स दुसरीकडे हलवल्यास FL ला missing samples दिसू शकतात.</li><li>Backup करताना <strong>पूर्ण गाण्याचा folder</strong> copy करा. फक्त FLP आणि फक्त MP3 हे वेगवेगळ्या कामासाठी आहेत.</li><li>Notes वेगळे ठेवायचे असल्यास Piano Roll menu → <strong>File → Export as MIDI file…</strong> वापरा.</li></ol>
+<p>आपल्या पहिल्या कामात मूळ <code>Downloads\mazya raja.flp</code> बदलला नाही. नवीन काम <code>Downloads\Mazya_Raja_Piano\Mazya_Raja_Piano.flp</code> मध्ये ठेवले. त्यानंतर editable pattern आणि तुमचे flute बदल याच नवीन project मध्ये save झाले.</p>
+
+<h2 id="export">१४. एकत्र WAV / MP3 export — प्रत्यक्ष वापरलेल्या settings</h2>
+<p><strong>Tracks merge करणे:</strong> Playlist मध्ये melody आणि backing वेगळे ठेवून दोन्ही एकत्र render/export केले की ऐकण्यासाठी एकच finished audio file तयार होते. Notes आणि backing वेगळे ठेवलेले असल्यामुळे FLP मध्ये पुढे edit करता येते.</p>
+<ol><li>Playlist मधील आवश्यक melody व backing ON, vocal आणि duplicate tracks OFF आहेत याची खात्री करा.</li><li><strong>SONG</strong> mode निवडा.</li><li><strong>File → Export → Wave file…</strong> किंवा <kbd>Ctrl+R</kbd>.</li><li>नाव व folder निवडा. आपण <code>Mazya_Raja_Flute_Instrumental.wav</code> असे नाव दिले.</li><li>Save केल्यावर render settings उघडतात. खालील settings तपासा.</li><li><strong>Start</strong> क्लिक करा आणि rendering पूर्ण होईपर्यंत थांबा.</li><li>Finished फाइल स्वतंत्र player मध्ये उघडून सुरुवात, मधला भाग व शेवट ऐका.</li></ol>
+<table><thead><tr><th>Setting</th><th>आपल्या export मध्ये</th><th>उपयोग</th></tr></thead><tbody>
+<tr><td>Mode</td><td><strong>Full song</strong></td><td>पूर्ण Playlist export करण्यासाठी.</td></tr><tr><td>Tail</td><td><strong>Leave remainder</strong></td><td>शेवटचा release/reverb उरल्यास तो कापला जाऊ नये.</td></tr><tr><td>Output</td><td><strong>WAV + MP3</strong> दोन्ही ON</td><td>गुणवत्तेची प्रत व लहान शेअर करण्याची प्रत.</td></tr><tr><td>WAV bit depth</td><td><strong>24Bit int</strong></td><td>24-bit WAV.</td></tr><tr><td>Channels</td><td><strong>Stereo</strong></td><td>डावा/उजवा audio.</td></tr><tr><td>MP3 bitrate</td><td><strong>224 kbps</strong></td><td>त्या वेळी निवडलेली setting. नवीन कामात गरजेनुसार बदलता येते.</td></tr><tr><td>Resampling</td><td><strong>32-point sinc</strong></td><td>आपल्या render ची interpolation setting.</td></tr><tr><td>HQ for all plugins</td><td>ON</td><td>उपलब्ध plugin HQ rendering.</td></tr><tr><td>Split mixer tracks</td><td><strong>OFF</strong></td><td>आपल्याला एकत्र master file हवी होती.</td></tr><tr><td>Enable insert effects / master effects</td><td>ON</td><td>सध्याच्या arrangement चे effects export मध्ये ठेवण्यासाठी.</td></tr></tbody></table>
+<p>आपला WAV export <strong>44,100 Hz, 24-bit stereo, 219.12 सेकंद</strong> असा झाला. MP3 सुमारे 219.17 सेकंद होता; encoding मुळे अत्यल्प duration फरक दिसू शकतो. Rendering पूर्ण झाल्यावर फाइल्स अस्तित्वात आहेत, वाचता येतात आणि आवाज आहे हे तपासले.</p>
+<p class="small">Menu/settings संदर्भ: <a href="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm">Image-Line — Exporting Audio &amp; MIDI</a>. तुमच्या FL Studio version नुसार dialog ची मांडणी थोडी बदलू शकते.</p>
+
+<h2 id="files">१५. तयार झालेल्या तुमच्या फाइल्स कुठे आहेत?</h2>
+<p>मुख्य folder: <code>C:\Users\Rushikesh Khode\Downloads\Mazya_Raja_Piano</code></p>
+<table><thead><tr><th>फाइल</th><th>कशासाठी?</th></tr></thead><tbody>
+<tr><td><a href="Mazya_Raja_Piano.flp">Mazya_Raja_Piano.flp</a></td><td>Editable FL project; नंतरच्या piano/flute कामासह.</td></tr>
+<tr><td><a href="Mazya_Raja_Piano_Melody.mid">Mazya_Raja_Piano_Melody.mid</a></td><td>पहिल्या conversion चे 625 notes. पुढील flute edits यामध्ये आपोआप येत नाहीत.</td></tr>
+<tr><td><a href="Mazya_Raja_Piano_Solo.wav">Mazya_Raja_Piano_Solo.wav</a></td><td>फक्त piano melody audio.</td></tr>
+<tr><td><a href="Mazya_Raja_Piano_With_Music.wav">Mazya_Raja_Piano_With_Music.wav</a></td><td>पियानो + मूळ वाद्यांची पहिली एकत्र आवृत्ती.</td></tr>
+<tr><td><a href="Mazya_Raja_Flute_Instrumental.wav">Mazya_Raja_Flute_Instrumental.wav</a></td><td>शेवटच्या FL arrangement मधून flute + मूळ वाद्ये; 24-bit WAV.</td></tr>
+<tr><td><a href="Mazya_Raja_Flute_Instrumental.mp3">Mazya_Raja_Flute_Instrumental.mp3</a></td><td>Flute instrumental ची शेअर करण्याची MP3 प्रत.</td></tr>
+<tr><td><a href="Original_Music.mp3">Original_Music.mp3</a></td><td>Project folder मध्ये ठेवलेली मूळ backing ची प्रत.</td></tr>
+<tr><td><a href="notes.csv">notes.csv</a></td><td>प्रत्येक मूळ note ची वेळ, pitch, velocity आणि confidence.</td></tr></tbody></table>
+<p class="small">वरील links चालण्यासाठी हा मार्गदर्शक याच audio/project folder मध्ये ठेवा.</p>
+
+<h2 id="problems">१६. अडचण आल्यास काय तपासायचे?</h2>
+<table><thead><tr><th>अडचण</th><th>प्रथम काय करावे?</th></tr></thead><tbody>
+<tr><td>Waveform दिसतो; Piano Roll notes नाहीत.</td><td>तुम्ही WAV/MP3 उघडला आहे. Instrument च्या Piano Roll मध्ये .mid import करा.</td></tr>
+<tr><td>संपूर्ण गाणे ऐवजी एकच pattern ऐकू येतो.</td><td>PAT ऐवजी SONG निवडा. Pattern Playlist मध्ये आहे का पाहा.</td></tr>
+<tr><td>Melody स्वतंत्र ऐकायची आहे.</td><td>PAT mode + योग्य pattern + योग्य instrument channel ON.</td></tr>
+<tr><td>Notes आहेत पण आवाज नाही.</td><td>Channel mute, Mixer mute, instrument loading आणि volume तपासा. आपल्या नंतरच्या project मध्ये FL Keys बंद आणि Flute चालू होता.</td></tr>
+<tr><td>गायक अजून ऐकू येतो.</td><td>पूर्ण मूळ गाणे/vocal stem mute आहे का पाहा. Music stem मधील उरलेला vocal bleed असल्यास separation सुधारावी लागेल.</td></tr>
+<tr><td>सुरुवात जुळते; शेवटी timing चुकते.</td><td>MIDI tempo संदर्भ, project tempo किंवा audio stretching तपासा. फक्त clip पुढे-मागे हलवून वाढत जाणारा फरक सुटत नाही.</td></tr>
+<tr><td>सगळीकडे समान प्रमाणात पुढे/मागे आहे.</td><td>Clip start offset/leading silence तपासा. दोन्ही tracks योग्य सुरुवातीला लावा.</td></tr>
+<tr><td>खूप आवाज / double melody.</td><td>समान MIDI दोनदा import, duplicate notes, दोन lead channels किंवा piano WAV + pattern एकत्र सुरू आहेत का पाहा.</td></tr>
+<tr><td>Notes खूप लहान दिसतात किंवा दिसतच नाहीत.</td><td>योग्य instrument चा Piano Roll उघडा → Ctrl+A → Zoom on selection.</td></tr>
+<tr><td>अचानक खूप खालचा/वरचा स्वर.</td><td>Reference vocal ऐकून octave error आहे का तपासा. सर्व notes एकदम transpose करू नका.</td></tr>
+<tr><td>Flute खूप तुटक वाटतो.</td><td>Note lengths, gaps व instrument envelope/release तपासा. Piano साठी चांगले वाटणारे phrasing flute साठी सुधारावे लागू शकते.</td></tr>
+<tr><td>दुसऱ्या संगणकावर missing audio.</td><td>FLP सोबत संबंधित audio folder आणा आणि योग्य sample paths निवडा.</td></tr>
+<tr><td>Export मध्ये फक्त वेगळ्या-वेगळ्या फाइल्स.</td><td>एकत्र master हवा असल्यास Split mixer tracks OFF ठेवा.</td></tr>
+</tbody></table>
+
+<h2 id="checklist">१७. प्रत्येक नवीन गाण्यासाठी छोटा checklist</h2>
+<ul class="checklist"><li>वेगळा song folder आणि मूळ audio तयार.</li><li>Vocal व instrumental stems तयार; त्यांचा start/duration जुळलेला.</li><li>फक्त vocal वरून Melody.mid तयार.</li><li>MIDI tempo संदर्भ आणि FL tempo जुळवलेला.</li><li>FL Keys किंवा Flute instrument जोडलेला.</li><li>रिकाम्या Piano Roll मध्ये MIDI एकदाच import.</li><li>Pattern ला स्पष्ट नाव दिलेले.</li><li>चुकीचे स्वर, octave jumps, अनावश्यक छोटे notes तपासलेले.</li><li>Playlist मध्ये melody pattern आणि music योग्य सुरुवातीला.</li><li>एक lead + एक backing ON; vocal/full original/duplicates OFF.</li><li>SONG mode मध्ये सुरुवात, मध्ये आणि शेवट timing तपासलेले.</li><li>Volume balance आणि clipping तपासलेले.</li><li>FLP वेगळ्या नावाने save केलेला.</li><li>Full song, Stereo, Split mixer tracks OFF करून WAV/MP3 export.</li><li>Export स्वतंत्र player मध्ये ऐकलेला आणि पूर्ण folder backup केलेला.</li></ul>
+
+<h2 id="technical">१८. मूळ scripts आणि तांत्रिक तपशील — इच्छुकांसाठी</h2>
+<p>तुम्हाला नेमके मी केलेले code पाहता यावे म्हणून या मार्गदर्शकासोबत <code>Process_Scripts</code> folder मध्ये मूळ कामाच्या scripts दिल्या आहेत. <strong>या एका गाण्यासाठी लिहिलेल्या scripts आहेत; सर्व गाण्यांसाठी तयार app नाहीत.</strong> सामान्य वापरासाठी भाग ६–१४ मधला workflow वापरा.</p>
+<table><thead><tr><th>Script</th><th>प्रत्यक्ष काम</th></tr></thead><tbody><tr><td>inspect_audio.py</td><td>Audio duration, sample rates, project tempo, channels व piano samples तपासले.</td></tr><tr><td>convert.py</td><td>Vocal → pitch → notes → MIDI; piano sample rendering; backing सोबत पहिला piano mix.</td></tr><tr><td>finish.py</td><td>पहिल्या deliverables ची प्रत तयार केली; नवीन FLP मध्ये piano audio लावला; reference mute केला.</td></tr><tr><td>check_instrumental.py</td><td>शेवटचे WAV/MP3 duration, stereo आणि audio levels तपासले.</td></tr></tbody></table>
+<p>Libraries साठी वापरलेला install command साधारण असा होता; आपल्या संगणकावर Python runtime व packages साठी वेगळे स्थान वापरले होते:</p>
+<pre>python -m pip install --target "packages" librosa soundfile mido pyflp</pre>
+<p>यातून आवश्यक dependencies सुद्धा आल्या. PyFLP ला आपल्या Python आवृत्तीत Enum compatibility issue आला; script मध्ये त्यासाठी छोटा compatibility adapter वापरला. FL Studio मध्ये हाताने MIDI import करण्याच्या workflow ला PyFLP ची गरज नाही.</p>
+<p><strong>Analysis settings:</strong> analysis copy 16 kHz mono; 70–1600 Hz bandpass; pYIN 75–900 Hz; 1024 samples चे frame; 160 samples म्हणजे साधारण 10 ms hop; सुमारे 20-सेकंदांच्या भागांत processing; 5-frame median smoothing. जवळचे सूक्ष्म fragments स्वच्छ करून साधारण 60 ms पेक्षा छोटे final notes वगळले. काही isolated कमी octave detections शेजारच्या melody संदर्भाने दुरुस्त केली. MIDI 960 ticks per beat आणि 130 BPM संदर्भात लिहिली. Piano WAV मात्र 44.1 kHz stereo, 24-bit होता.</p>
+<div class="note"><strong>दुसऱ्या गाण्यावर मूळ convert.py तशीच चालवू नका.</strong> Input filenames, output filenames, tempo आणि piano sample path या script मध्ये ठरावीक आहेत. <code>pitch_analysis.npz</code> cache अस्तित्वात असेल तर जुने analysis वापरले जाते; प्रत्येक नव्या गाण्यासाठी नवीन working/output folder वापरणे आवश्यक आहे. तसेच या गाण्यासाठी केलेली low-octave दुरुस्ती खोल पुरुष आवाजाच्या गाण्यावर चुकीची ठरू शकते. <code>finish.py</code> पुन्हा चालवल्यास आपला आधीचा output project पुन्हा बनवला जाईल; त्यामुळे नंतर केलेले FL edits असलेल्या project वर ती चालवू नका.</div>
+<p>हा technical appendix “आपण आतून काय केले?” हे पारदर्शकपणे सांगण्यासाठी आहे. कोणत्याही script मधील paths किंवा settings न समजल्यास मूळ फाइल्सवर प्रयोग करण्याऐवजी नवीन प्रत वापरा.</p>
+
+<h2 id="prompt">१९. पुढच्या गाण्यासाठी मला देण्याचा नमुना</h2>
+<pre>या गाण्याच्या vocal melody चे editable MIDI notes तयार कर.
+पूर्ण गाणे: [पूर्ण path]
+Vocal stem: [पूर्ण path / उपलब्ध नाही]
+Music stem: [पूर्ण path / उपलब्ध नाही]
+FL project: [पूर्ण path / नवीन तयार कर]
+Instrument: Piano / Flute / Harmonium
+भाग: पूर्ण गाणे किंवा [सुरुवातीची वेळ–शेवटची वेळ]
+
+मूळ vocal timing आणि leading silence जप.
+Piano Roll मध्ये notes असलेला नाव दिलेला pattern तयार कर.
+त्या pattern ला Playlist मध्ये योग्य जागी ठेव.
+मूळ backing सोबत merge कर; vocal आणि duplicate tracks mute ठेव.
+फक्त मोफत अतिरिक्त साधने वापर.
+मूळ project बदलू नको; नवीन FLP + MIDI + WAV + MP3 दे.
+Output folder: [पूर्ण path]</pre>
+
+<h2 id="sources">२०. अधिकृत संदर्भ</h2>
+<p>वरील प्रत्यक्ष कृतींची नोंद आपल्या session मधील project, files आणि दिसलेल्या FL Studio 20 menus वर आधारित आहे. पुढील गाण्यांसाठी दिलेल्या पर्यायांचे अधिकृत संदर्भ:</p>
+<ul><li><a href="https://librosa.org/doc/0.11.0/generated/librosa.pyin.html">librosa pYIN — pitch estimation</a></li><li><a href="https://basicpitch.spotify.com/">Spotify Basic Pitch — मोफत audio-to-MIDI demo</a></li><li><a href="https://github.com/spotify/basic-pitch">Basic Pitch — अधिकृत code आणि उपयोग</a></li><li><a href="https://github.com/Anjok07/ultimatevocalremovergui">Ultimate Vocal Remover — अधिकृत project/download माहिती</a></li><li><a href="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_menu.htm">FL Studio — Piano Roll menu</a></li><li><a href="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_midi.htm">FL Studio — Piano Roll MIDI import</a></li><li><a href="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm">FL Studio — Audio/MIDI export</a></li></ul>
+<div class="footer">हा मार्गदर्शक तुमच्या “माझ्या राजा” project साठी तयार केला आहे. साधारण पद्धत इतर गाण्यांना वापरता येते; tempo, vocal range, separation quality आणि phrasing प्रत्येक गाण्यानुसार तपासावे लागतात.</div>
+</main></body></html>
